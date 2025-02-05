@@ -7,6 +7,7 @@ int main(void){
     int dump[30];
     get_binary_to_dump(dump, inp);
     dump[pos] = 0;
+    printf("%d", bin_dump_to_dec(dump));
 }
 void get_binary_to_dump(int* dump, int num) {
     for (int i = 0; i < 32; i++){
