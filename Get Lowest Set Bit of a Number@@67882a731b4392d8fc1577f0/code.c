@@ -9,7 +9,7 @@ int main(void) {
     int dump[32];
     get_binary_to_dump(dump, inp);
     for (int i = 32; i >= 0 ; i--){
-        if (dump[32-i] == 0) {
+        if (dump[32-i] == 1) {
             printf("%d", i);
         }
     }
