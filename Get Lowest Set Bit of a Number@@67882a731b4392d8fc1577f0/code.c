@@ -10,7 +10,7 @@ int main(void) {
     get_binary_to_dump(dump, inp);
     for (int i = 32; i >= 0 ; i--){
         if (dump[i] == 1) {
-            printf("%d", 32 - i);
+            printf("%d", 32 - i - 1);
             break;
         }
     }
