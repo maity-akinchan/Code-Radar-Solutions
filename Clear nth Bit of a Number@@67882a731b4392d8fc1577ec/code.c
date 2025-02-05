@@ -6,7 +6,7 @@ int bin_dump_to_dec(int* dump);
 int main(void) {
     int inp, pos;
     scanf("%d %d", &inp, &pos);
-    pos = 32 - pos;
+    pos = 32 - pos - 1;
     int dump[32];
     get_binary_to_dump(dump, inp);
     dump[pos] = 0;  
