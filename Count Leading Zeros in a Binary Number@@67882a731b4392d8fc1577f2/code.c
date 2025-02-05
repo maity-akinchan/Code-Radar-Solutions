@@ -9,7 +9,7 @@ int main(void) {
     int dump[32];
     get_binary_to_dump(dump, inp);
     int zc = 0;
-    for (int i = 32; i >= 0 ; i--){
+    for (int i = 0; i <= 31; i++){
         if (dump[i] == 1) {
             break;
         }
