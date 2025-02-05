@@ -16,6 +16,9 @@ int main(void) {
             printf("%d", dump[i]);
         }
     }
+    if (flag == 0) {
+        printf("0");
+    }
 }
 void get_binary_to_dump(int* dump, int num) {
     for (int i = 0; i < 32; i++) {
