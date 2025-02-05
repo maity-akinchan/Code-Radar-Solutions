@@ -7,8 +7,14 @@ int main(void) {
     pos = 32 - pos - 1;
     int dump[32];
     get_binary_to_dump(dump, inp);
+    int flag = 0;
     for (int i = 0; i < 32; i++){
-        printf("%d", dump[i]);
+        if (dump[i] == 1) {
+            flag = 1;
+        }
+        if (flag) {
+            printf("%d", dump[i]);
+        }
     }
 }
 void get_binary_to_dump(int* dump, int num) {
