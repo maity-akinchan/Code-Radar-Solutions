@@ -3,5 +3,5 @@
 int main(void){
     char x;
     scanf("%c", &x);
-    printf("ASCII Value: %c", x);
+    printf("ASCII Value: %d", x);
 }
