@@ -9,7 +9,7 @@ int main(void) {
     pos = 32 - pos - 1;
     int dump[32];
     get_binary_to_dump(dump, inp);
-    dump[pos] = ~dump[pos];  
+    dump[pos] = !dump[pos];  
     printf("%d", bin_dump_to_dec(dump));
 }
 
