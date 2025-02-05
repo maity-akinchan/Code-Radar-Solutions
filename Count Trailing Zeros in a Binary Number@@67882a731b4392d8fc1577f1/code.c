@@ -17,7 +17,7 @@ int main(void) {
             zc++;
         }
     }
-    printf("%d", zc);
+    printf("%d", zc - 1);
 }
 
 void get_binary_to_dump(int* dump, int num) {
