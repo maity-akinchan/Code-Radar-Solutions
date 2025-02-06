@@ -12,6 +12,6 @@ int main() {
         printf("%d", sides[1]);
     }
     else {
-        printf("%d", sides[2])
+        printf("%d", sides[2]);
     }
 }
