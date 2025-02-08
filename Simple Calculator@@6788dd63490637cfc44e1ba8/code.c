@@ -6,4 +6,5 @@ int main(void){
     else if (z == '/' && b != 0) printf("%d", a / b);
     else if (z == '*') printf("%d", a * b);
     else if (z == '-') printf("%d", a - b);
+    else printf("error");
 }
