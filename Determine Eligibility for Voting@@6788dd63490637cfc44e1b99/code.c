@@ -4,7 +4,7 @@
 int main(void) {
     int age; scanf("%d", &age);
     if (age >= 18)
-        write(1, "Eligible", 9);
+        printf("Eligible");
     else
-        write(1, "Not Eligible", 13);
+        write("Not Eligible");
 }
