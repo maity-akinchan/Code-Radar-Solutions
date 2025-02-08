@@ -4,7 +4,7 @@
 int main(void){
     int x,y; scanf("%d %d", &x, &y);
     if (x % y == 0)
-        write(1, "Yes\n", 4);
+        write(1, "Yes", 4);
     else
-        write(1, "No\n", 3);
+        write(1, "No", 3);
 }
