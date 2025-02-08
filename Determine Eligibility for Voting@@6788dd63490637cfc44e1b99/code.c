@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include <unistd.h>
 
 int main(void) {
-    int age; read(0, &buffer, sizeof(int) - 1);
+    int age; scanf("%d", &age);
     if (age >= 18)
         write(1, "Eligible", 9);
     else
