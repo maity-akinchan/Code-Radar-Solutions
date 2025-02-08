@@ -6,7 +6,7 @@ int main (void) {
        { printf("Vowel");}
     else if (65 <= x && x <= 90 || 97 <= x && x <= 122)
         {printf("Consonant");}
-    else if (48 <= x <= 57)
+    else if (48 <= x && x <= 57)
         {printf("Digit");}
     else 
        { printf("Special Character");}
