@@ -6,5 +6,6 @@ int main(void){
         for (int j = 0; j <= i; j++)
             printf("%d ", counter++);
         counter = 1;
+        printf("\n");
     }
 }
