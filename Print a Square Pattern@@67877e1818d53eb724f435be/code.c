@@ -6,5 +6,6 @@ int main(void){
         for (int j = 0; j < x; j++){
             printf("* ");
         }
+        printf("\n");
     }
 }
