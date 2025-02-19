@@ -2,7 +2,6 @@
 
 int main(void){
     int x; scanf("%d", &x);
-    for (int i = 1; i <= 10; i++) {
-        printf("%d x %d = %d", x, i, x*1);
-    }
+    for (int i = 1; i <= 10;)
+        printf("%d x %d = %d\n", x, i++, x*1);
 }
