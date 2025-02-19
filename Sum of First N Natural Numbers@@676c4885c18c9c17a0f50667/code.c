@@ -2,5 +2,5 @@
 
 int main(void){
     int x; scanf("%d", &x);
-    printf("%d", (n)*(n+1)/2);
+    printf("%d", (x)*(x+1)/2);
 }
