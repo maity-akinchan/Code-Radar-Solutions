@@ -1,6 +1,6 @@
 int isPrime(int num) {
     int prime = 1;
-    for (int i = 2; i < (n / 2) + 1; i++) {
+    for (int i = 2; i < (num / 2) + 1; i++) {
         if (num == 2 || num == 1) return 1;
         if (num % i == 0) return 0;
     }
