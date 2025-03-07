@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int printArray(int arr, int n) {
+int printArray(int* arr, int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
 }
 
-int bubbleSort(int arr, int n) {
+int bubbleSort(int* arr, int n) {
     while (true) {
         int swaps = 0;
         for (int i = 0; i < n - 1; i++) {
@@ -28,7 +28,7 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     }
     bubbleSort(arr, n);
     printArray(arr, n);
